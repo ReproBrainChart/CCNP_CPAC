@@ -1,0 +1,5 @@
+[submodule "inputs/data"]
+	path = inputs/data
+	url = /cbica/projects/RBC/RBC_RAWDATA/bidsdatasets/CCNP
+	datalad-id = 9704eab1-3320-41f0-9fce-3c6961b4ac96
+	datalad-url = /cbica/projects/RBC/RBC_RAWDATA/bidsdatasets/CCNP
