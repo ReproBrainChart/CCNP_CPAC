@@ -17,9 +17,9 @@ subid="$3"
 sesid="$4"
 
 # change into the cluster-assigned temp directory. Not done by default in SGE
-#cd ${CBICA_TMPDIR}
+cd ${CBICA_TMPDIR}
 # OR Run it on a shared network drive
-cd /cbica/comp_space/$(basename $HOME)
+#cd /cbica/comp_space/$(basename $HOME)
 
 # Used for the branch names and the temp dir
 BRANCH="job-${JOB_ID}-${subid}-${sesid}"
