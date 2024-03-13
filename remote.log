@@ -1,2 +1,1 @@
 8169a450-76ac-43c7-9097-f8044b45efc7 autoenable=true bucket=fcp-indi datacenter=US encryption=none exporttree=no fileprefix=data/Projects/RBC/CCNP_CPAC/ host=s3.amazonaws.com name=fcp-indi partsize=1GiB port=80 public=yes storageclass=STANDARD type=S3 timestamp=1677860773.401802s
-a27c67fb-db8f-4374-a952-b1c22aa71434 archive-id=280be2de-eeda-46a4-8f1f-94eca224e9b0 autoenable=true encryption=none externaltype=ora name=output-storage type=external url=ria+file:///cbica/projects/RBC/production/CCNP/c-pac-1.8.5/output_ria timestamp=1677088223.737013s
