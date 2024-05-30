@@ -34,9 +34,8 @@ df["motionExclude"][df["medianFD"]>=0.2]=1
 df["normCrossCorrExclude"][df["normCrossCorr"]<=0.8]=1
 df["fmriExclude"][df["normCrossCorrExclude"]==1]=1
 df["fmriExclude"][df["motionExclude"]==1]=1
-df.rename(columns={"sub": "participant_id", "ses": "session_id"})
+combined_df=df.rename(columns={"sub": "participant_id", "ses": "session_id"})
 
-combined_df=df
 
 print('The number of runs in this .csv is '+str(num))
 path = '/cbica/projects/RBC/QC_Concatenation/'+str(study_path)+'/cpac_RBCv0/study-'+study+'_desc-functional_qc.tsv'
